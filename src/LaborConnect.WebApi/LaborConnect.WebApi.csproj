@@ -11,9 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LaborConnect.DataAccess\LaborConnect.DataAccess.csproj" />
-    <ProjectReference Include="..\LaborConnect.Domain\LaborConnect.Domain.csproj" />
-    <ProjectReference Include="..\LaborConnect.Service\LaborConnect.Service.csproj" />
+    <ProjectReference Include="..\LaborConnect.Service\LaborConnect.Infrastructure.csproj" />
+    <ProjectReference Include="..\LaborConnect.DataAccess\LaborConnect.Application.csproj" />
   </ItemGroup>
 
 </Project>
